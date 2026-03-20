@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quora — Create a Post</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.quora.com/favicon.ico"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <h2>Create a new posts</h2>
+    <form method="post" action="/posts">
+      <input type="text" placeholder="Enter username" name="username" /><br />
+      <br />
+      <textarea
+        rows="8"
+        cols="20"
+        name="content"
+        placeholder="write your post"
+        id="content"
+      ></textarea>
+      <br />
+      <button>Submit Post</button>
+    </form>
+  </body>
+  <script src="/JS/script.js" defer></script>
+</html>
