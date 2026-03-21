@@ -17,17 +17,17 @@ app.use(express.static(path.join(__dirname, "public")));
 let posts = [
   {
     id: uuidv4(), //id should be unique
-    username: "Priyanshu  Raj",
+    username: "Priyanshu_Raj",
     content: "I got selected for my 1st Internship!",
   },
   {
     id: uuidv4(),
-    username: "Mayank Sinha",
+    username: "Abhinav-Singh-Chaudhry",
     content: "Hard work is important to achive success",
   },
   {
     id: uuidv4(),
-    username: "Atul Kumar",
+    username: "Abhijeet Mishra",
     content: "I Love Coding :)",
   },
 ];
